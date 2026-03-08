@@ -25,7 +25,7 @@
     <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_rectpack.h" />
     <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_textedit.h" />
     <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_truetype.h" />
-    <ClInclude Include="SDLWindowTest.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui.cpp" />
@@ -33,7 +33,7 @@
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_draw.cpp" />
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_tables.cpp" />
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_widgets.cpp" />
-    <ClCompile Include="SDLWindowTest.cpp" />
+    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
