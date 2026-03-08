@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="simple.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="simple.h">
+    <ClInclude Include="SDLWindowTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
