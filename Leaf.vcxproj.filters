@@ -18,5 +18,43 @@
     <ClInclude Include="SDLWindowTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_rectpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_tables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLWindowTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

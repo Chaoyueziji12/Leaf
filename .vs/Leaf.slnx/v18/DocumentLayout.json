@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\C\u002B\u002BProjects\\Leaf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D60DE58F-E74C-4E0A-9841-30DB2FB04618}|Leaf.vcxproj|E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D60DE58F-E74C-4E0A-9841-30DB2FB04618}|Leaf.vcxproj|solutionrelative:SDLWindowTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D60DE58F-E74C-4E0A-9841-30DB2FB04618}|Leaf.vcxproj|E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D60DE58F-E74C-4E0A-9841-30DB2FB04618}|Leaf.vcxproj|solutionrelative:SDLWindowTest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SDLWindowTest.cpp",
+              "DocumentMoniker": "E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.cpp",
+              "RelativeDocumentMoniker": "SDLWindowTest.cpp",
+              "ToolTip": "E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.cpp",
+              "RelativeToolTip": "SDLWindowTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-08T07:48:03.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SDLWindowTest.h",
               "DocumentMoniker": "E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.h",
               "RelativeDocumentMoniker": "SDLWindowTest.h",
               "ToolTip": "E:\\C\u002B\u002BProjects\\Leaf\\SDLWindowTest.h",
               "RelativeToolTip": "SDLWindowTest.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-08T06:43:23.169Z",
               "EditorCaption": ""
