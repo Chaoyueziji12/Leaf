@@ -88,12 +88,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>E:\C++Projects\Leaf\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;E:\C++Projects\Leaf\Dependencies\imgui-docking;E:\C++Projects\Leaf\Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\C++Projects\Leaf\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;$(SolutionDir)Dependencies\imgui-docking;$(SolutionDir)Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>E:\C++Projects\Leaf\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;E:\C++Projects\Leaf\Dependencies\imgui-docking;E:\C++Projects\Leaf\Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\C++Projects\Leaf\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;$(SolutionDir)Dependencies\imgui-docking;$(SolutionDir)Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
