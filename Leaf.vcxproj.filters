@@ -36,6 +36,12 @@
     <ClInclude Include="Window.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui.cpp">
@@ -53,7 +59,7 @@
     <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_widgets.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Window.cpp">
+    <ClCompile Include="Example.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
