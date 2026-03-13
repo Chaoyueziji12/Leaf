@@ -6,7 +6,7 @@ int main(int argc, char* argv[]) {
 		LF_WINDOWPOS_CENTERED, LF_WINDOWPOS_CENTERED,
 		10, 255, 255, 255
 		);
-	Leaf::CreateRectangle(20, 20, 50, 50, 0, 255, 0, 255, window);
+	LeafRectangle rect = Leaf::CreateRectangle(20, 20, 50, 50, 0, 255, 0, 255, window);
 	Leaf::RunWindow(window);
 	return 0;
 }
