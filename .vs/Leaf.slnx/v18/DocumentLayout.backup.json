@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "E:\\C\u002B\u002BProjects\\Leaf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12CF1D4F-312C-47B5-A322-616AC220606F}|..\\Editor\\Editor.vcxproj|E:\\C\u002B\u002BProjects\\Editor\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12CF1D4F-312C-47B5-A322-616AC220606F}|..\\Editor\\Editor.vcxproj|E:\\C\u002B\u002BProjects\\Editor\\Editor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12CF1D4F-312C-47B5-A322-616AC220606F}|..\\Editor\\Editor.vcxproj|E:\\C\u002B\u002BProjects\\Editor\\Editor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12CF1D4F-312C-47B5-A322-616AC220606F}|..\\Editor\\Editor.vcxproj|E:\\C\u002B\u002BProjects\\Editor\\Editor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D60DE58F-E74C-4E0A-9841-30DB2FB04618}|Leaf.vcxproj|E:\\C\u002B\u002BProjects\\Leaf\\Rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -32,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,26 +44,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Editor.h",
               "DocumentMoniker": "E:\\C\u002B\u002BProjects\\Editor\\Editor.h",
               "RelativeDocumentMoniker": "..\\Editor\\Editor.h",
-              "ToolTip": "E:\\C\u002B\u002BProjects\\Editor\\Editor.h",
-              "RelativeToolTip": "..\\Editor\\Editor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "ToolTip": "E:\\C\u002B\u002BProjects\\Editor\\Editor.h*",
+              "RelativeToolTip": "..\\Editor\\Editor.h*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwCwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-14T10:51:08.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Editor.cpp",
               "DocumentMoniker": "E:\\C\u002B\u002BProjects\\Editor\\Editor.cpp",
               "RelativeDocumentMoniker": "..\\Editor\\Editor.cpp",
               "ToolTip": "E:\\C\u002B\u002BProjects\\Editor\\Editor.cpp",
               "RelativeToolTip": "..\\Editor\\Editor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-14T05:51:55.427Z",
               "EditorCaption": ""
