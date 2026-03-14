@@ -44,11 +44,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)Dependencies\imgui-docking;$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;$(SolutionDir)Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
+    <IncludePath>E:\C++Projects\Leaf\Editor\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking\imgui-docking;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
     <ReferencePath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(SolutionDir)Dependencies\imgui-docking;$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;$(SolutionDir)Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
+    <IncludePath>E:\C++Projects\Leaf\Editor\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\include;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking\imgui-docking;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking;E:\C++Projects\Leaf\Editor\Dependencies\imgui-docking\imgui-docking\backends;$(IncludePath)</IncludePath>
     <ReferencePath>$(SolutionDir)Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -60,9 +60,10 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.dll;SDL2main.dll;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\C++Projects\Leaf\Editor\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -76,26 +77,27 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.dll;SDL2main.dll;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\C++Projects\Leaf\Editor\Dependencies\SDL2-devel-2.32.10-VC\SDL2-2.32.10\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imconfig.h" />
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imgui.h" />
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imgui_internal.h" />
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imstb_rectpack.h" />
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imstb_textedit.h" />
-    <ClInclude Include="..\Dependencies\imgui-docking\imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imconfig.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imgui.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imgui_internal.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="Dependencies\imgui-docking\imgui-docking\imstb_truetype.h" />
     <ClInclude Include="ImGuiTest.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Dependencies\imgui-docking\imgui-docking\imgui.cpp" />
-    <ClCompile Include="..\Dependencies\imgui-docking\imgui-docking\imgui_demo.cpp" />
-    <ClCompile Include="..\Dependencies\imgui-docking\imgui-docking\imgui_draw.cpp" />
-    <ClCompile Include="..\Dependencies\imgui-docking\imgui-docking\imgui_tables.cpp" />
-    <ClCompile Include="..\Dependencies\imgui-docking\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui.cpp" />
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_tables.cpp" />
+    <ClCompile Include="Dependencies\imgui-docking\imgui-docking\imgui_widgets.cpp" />
     <ClCompile Include="ImGuiTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

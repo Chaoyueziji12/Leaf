@@ -1,13 +1,12 @@
-﻿  imgui.cpp
-  imgui_demo.cpp
-  imgui_draw.cpp
-  imgui_tables.cpp
-  imgui_widgets.cpp
-  ImGuiTest.cpp
-E:\C++Projects\Leaf\Editor\ImGuiTest.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  (编译源文件“ImGuiTest.cpp”)
-  
-E:\C++Projects\Leaf\Dependencies\imgui-docking\imgui-docking\backends\imgui_impl_sdl2.h(26,10): error C1083: 无法打开包括文件: “imgui.h”: No such file or directory
-  (编译源文件“ImGuiTest.cpp”)
-  
-  正在生成代码...
+﻿ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui_ImplSDL2_InitForSDLRenderer(struct SDL_Window *,struct SDL_Renderer *)" (?ImGui_ImplSDL2_InitForSDLRenderer@@YA_NPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)，函数 "struct LeafImGuiWindowStruct * __cdecl Leaf::CreateImGuiWindow(char const *,int,int)" (?CreateImGuiWindow@Leaf@@YAPEAULeafImGuiWindowStruct@@PEBDHH@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplSDL2_Shutdown(void)" (?ImGui_ImplSDL2_Shutdown@@YAXXZ)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplSDL2_NewFrame(void)" (?ImGui_ImplSDL2_NewFrame@@YAXXZ)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui_ImplSDL2_ProcessEvent(union SDL_Event const *)" (?ImGui_ImplSDL2_ProcessEvent@@YA_NPEBTSDL_Event@@@Z)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "bool __cdecl ImGui_ImplSDLRenderer2_Init(struct SDL_Renderer *)" (?ImGui_ImplSDLRenderer2_Init@@YA_NPEAUSDL_Renderer@@@Z)，函数 "struct LeafImGuiWindowStruct * __cdecl Leaf::CreateImGuiWindow(char const *,int,int)" (?CreateImGuiWindow@Leaf@@YAPEAULeafImGuiWindowStruct@@PEBDHH@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplSDLRenderer2_Shutdown(void)" (?ImGui_ImplSDLRenderer2_Shutdown@@YAXXZ)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplSDLRenderer2_NewFrame(void)" (?ImGui_ImplSDLRenderer2_NewFrame@@YAXXZ)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+ImGuiTest.obj : error LNK2019: 无法解析的外部符号 "void __cdecl ImGui_ImplSDLRenderer2_RenderDrawData(struct ImDrawData *,struct SDL_Renderer *)" (?ImGui_ImplSDLRenderer2_RenderDrawData@@YAXPEAUImDrawData@@PEAUSDL_Renderer@@@Z)，函数 "void __cdecl Leaf::RunImGuiWindow(struct LeafImGuiWindowStruct *,void (__cdecl*)(void))" (?RunImGuiWindow@Leaf@@YAXPEAULeafImGuiWindowStruct@@P6AXXZ@Z) 中引用了该符号
+SDL2main.lib(SDL_windows_main.obj) : error LNK2019: 无法解析的外部符号 SDL_main，函数 main_getcmdline 中引用了该符号
+    已定义且可能匹配的符号上的提示:
+      "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPEAD@Z)
+E:\C++Projects\Leaf\x64\Debug\Editor.exe : fatal error LNK1120: 9 个无法解析的外部命令

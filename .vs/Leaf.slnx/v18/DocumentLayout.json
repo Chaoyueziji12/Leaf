@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Editor\\ImGuiTest.cpp",
               "ToolTip": "E:\\C\u002B\u002BProjects\\Leaf\\Editor\\ImGuiTest.cpp",
               "RelativeToolTip": "Editor\\ImGuiTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-13T14:05:59.087Z",
               "EditorCaption": ""
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "Editor\\ImGuiTest.h",
               "ToolTip": "E:\\C\u002B\u002BProjects\\Leaf\\Editor\\ImGuiTest.h",
               "RelativeToolTip": "Editor\\ImGuiTest.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwDoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-13T13:39:39.741Z",
               "EditorCaption": ""
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Rectangle.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-13T11:33:19.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:33:19.092Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "Leaf.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-13T11:32:18.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:32:18.303Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "Window.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-09T04:40:12.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T04:40:12.884Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "Example.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-08T10:51:15.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T10:51:15.808Z"
             }
           ]
         }
