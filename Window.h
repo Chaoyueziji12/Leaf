@@ -7,10 +7,10 @@ int windowDelay = 10;
 class LeafWindow
 {
 	private:
-		SDL_Window* window;
 		SDL_Renderer* renderer;
 		int windowDelay;
 	public:
+		SDL_Window* window;
 		const char* title;
 		int width; 
 		int height; 
