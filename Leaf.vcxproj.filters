@@ -36,9 +36,6 @@
     <ClInclude Include="Window.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Leaf.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Rectangle.h">
       <Filter>头文件</Filter>
     </ClInclude>

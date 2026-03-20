@@ -1,12 +1,17 @@
-#include "Leaf.h"
+#include "Window.h"
 
 int main(int argc, char* argv[]) {
-	LeafWindow window = Leaf::CreateWindow("Leaf Window", 
-		800, 600, 
-		LF_WINDOWPOS_CENTERED, LF_WINDOWPOS_CENTERED,
-		10, 255, 255, 255
-		);
-	LeafRectangle rect = Leaf::CreateRectangle(20, 20, 50, 50, 0, 255, 0, 255, window);
-	Leaf::RunWindow(window);
+	LeafWindow* window = new LeafWindow();
+	window->title = "Leaf Window";
+	window->width = 800;
+	window->height = 600;
+	window->x = LF_WINDOWPOS_CENTERED;
+	window->y = LF_WINDOWPOS_CENTERED;
+	window->bgR = 255;
+	window->bgG = 255;
+	window->bgB = 255;
+	window->Initialize();
+	window->Run();
+	delete window;
 	return 0;
 }
